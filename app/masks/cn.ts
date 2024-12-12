@@ -1,4 +1,5 @@
 import { BuiltinMask } from "./typing";
+import { ServiceProvider } from "../constant";
 
 export const CN_MASKS: BuiltinMask[] = [
   {
@@ -15,7 +16,7 @@ export const CN_MASKS: BuiltinMask[] = [
     ],
     modelConfig: {
       model: "claude-3-5-sonnet-20241022",
-      providerName: "Anthropic",
+      providerName: "Anthropic" as ServiceProvider,
       temperature: 1,
       max_tokens: 4096,
       presence_penalty: 0,
