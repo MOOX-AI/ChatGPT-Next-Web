@@ -17,7 +17,7 @@ export const CN_MASKS: BuiltinMask[] = [
     modelConfig: {
       model: "claude-3-5-sonnet-20241022",
       providerName: "Anthropic" as ServiceProvider,
-      temperature: 1,
+      temperature: 0,
       max_tokens: 4096,
       presence_penalty: 0,
       frequency_penalty: 0,
