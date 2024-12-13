@@ -1,7 +1,7 @@
 [
   {
-    "id": "chuangyuan",
-    "name": "创元数据",
-    "schema": "http://sqlite.fieldshortcut.com/openapi.json"
+    "id": "zhuimi",
+    "name": "追觅",
+    "schema": "http://zm.fieldshortcut.com/openapi.json"
   }
 ]
