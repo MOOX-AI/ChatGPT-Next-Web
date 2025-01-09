@@ -4,7 +4,7 @@ import { ServiceProvider } from "../constant";
 export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "1f5bc-fe0f",
-    name: "追觅",
+    name: "吉利",
     context: [
       {
         id: "text-to-pic-0",
@@ -16,7 +16,7 @@ export const CN_MASKS: BuiltinMask[] = [
         id: "text-to-pic-1",
         role: "user",
 	content: 
-	"我后面常说的IPQC问题指的是表中`违反的管理要素要求`字段下的数据，该字段格式为多个IPQC问题用逗号拼接在一起的数据，比如一条数据样例为`料|有效性|无物料品质异常, 人|有效性|作业要点掌握`，其中的IPQC问题是`料|有效性|无物料品质异常`和`人|有效性|作业要点掌握`，请根据我向你解释的这些信息回答我后续提出的问题",
+	"请根据我向你解释的这些信息回答我后续提出的问题",
 	date: "",
       }, {
         id: "text-to-pic-2",
